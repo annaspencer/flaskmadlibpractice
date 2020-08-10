@@ -1,10 +1,8 @@
-body {
-    color: aqua;
-    background-image: url(https://media.giphy.com/media/iI4vhciiVh2b3j9sgo/source.gif);
+html {
+    color: rgb(122, 228, 247);
+    background-image: url(https://media.giphy.com/media/U3qYN8S0j3bpK/source.gif);
     margin: 50px;
-    font-size: 48px;
+    font-size: 42px;
+    font-family: 'Rowdies', cursive;
 }
 
-h1 {
-    font-size: 48px;
-}
