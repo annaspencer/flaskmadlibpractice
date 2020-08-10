@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% block title %} Mad Lib Form {% endblock %}
+{% block content %} 
+<h1>Mad Lib Form</h1>
+<form action="/story">
+    {% for prompt in prompts %}
+     <p>{{ prompt }} :
+        <input name="{{ prompt }}">
+    </p>
+    {% endfor %}
+    <!-- <p>Place: <input name="place"></p>
+    <p>Noun: <input name="noun"></p>
+    <p>Verb: <input name="verb"></p>
+    <p>Adjective: <input name="adjective"></p>
+    <p>Plural Noun: <input name="p_noun"></p> -->
+    <button>submit</button>
+
+</form>
+{% endblock %}
